@@ -19,8 +19,8 @@ class Solution(object):
             step += 1
             while step < len(s):
  		if isPalindrome(s[step:]):
-		    return s[step:])
- 		for i in range(1: step):
+		    return s[step:]
+ 		for i in range(1, step):
 		    if isPalindrome(s[step-i:-i]):
  			return s[step-i:-i]
                 if isPalindrome(s[:-step]):
