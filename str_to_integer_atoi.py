@@ -35,5 +35,5 @@ class Solution:
             result = lower_limit
         elif result > upper_limit:
             result = upper_limit
-        return result:
+        return result
 
